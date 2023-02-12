@@ -8,5 +8,6 @@ export default defineConfig({
   test: {
     environment: "happy-dom",
     globals: true
-  }
+  },
+  base:"/app-ejercicios/"
 })
