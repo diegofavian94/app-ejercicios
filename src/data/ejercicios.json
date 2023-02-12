@@ -1,0 +1,117 @@
+{
+    "Calentamiento": [
+        {
+            "nombre": "Activación de cadera",
+            "src":"https://hmg-h-cdn.hearstapps.com/videos/calentamiento-activacion-cadera-1575301068.mp4",
+            "tipo": "video"
+        },
+        {
+            "nombre": "Rotaciones de cadera",
+            "src":"https://hmg-h-cdn.hearstapps.com/videos/calentamiento-rotacion-cadera-1575301190.mp4",
+            "tipo": "video"
+        },
+        {
+            "nombre":"Enhebrar la aguja",
+            "src":"https://hmg-h-cdn.hearstapps.com/videos/calentamiento-enhebrar-aguja-1575301208.mp4",
+            "tipo": "video"
+        },
+        {
+            "nombre":"Tijeras abdominales",
+            "src":"https://media.giphy.com/media/jUdlZc9Kw88mGqGPoD/giphy.gif",
+            "tipo": "imagen"
+        },
+        {
+            "nombre":"Estocada lateral con elevación de rodilla",
+            "src":"https://hmg-h-cdn.hearstapps.com/videos/calentamiento-estocada-lateral-1575301237.mp4",
+            "tipo": "video"
+        }
+    ],
+    "Ejercicios":{
+        "Martes": [
+            {
+                "nombre": "Sentadilla con salto de 180º",
+                "src":"https://hmg-h-cdn.hearstapps.com/videos/2020-womenshealth-fitnessloops-ep24-tatiana-ms-kw-v1-gradedselects-180squatjump-01-1583933857.mp4",
+                "tipo": "video"
+            },
+            {
+                "nombre": "Sentadilla con balanceo",
+                "src":"https://hmg-h-cdn.hearstapps.com/videos/squat-thrusts-1591196463.mp4",
+                "tipo": "video"
+            },
+            {
+                "nombre": "Sentadillas sin peso",
+                "src":"https://media.giphy.com/media/ed6cvbto3N5XbIgp67/giphy.gif",
+                "tipo": "imagen"
+            },
+            {
+                "nombre": "Toques de pies laterales",
+                "src":"https://hmg-h-cdn.hearstapps.com/videos/lateral-toe-taps-1591198266.mp4",
+                "tipo": "video"
+            },
+            {
+                "nombre": "Abdominales en bicicleta",
+                "src":"https://media.giphy.com/media/dELBjGcheIAxp0iFmq/giphy.gif",
+                "tipo": "imagen"
+            },
+            {
+                "nombre": "Crunch oblicuo tumbado",
+                "src":"https://media.giphy.com/media/wCo4WYE1uzbuiSE5wP/giphy.gif",
+                "tipo": "imagen"
+            }
+        ],
+        "Jueves": [
+            {
+                "nombre": "Pasitos rápidos con flexión",
+                "src":"https://hmg-h-cdn.hearstapps.com/videos/fast-feet-drop-1591199264.mp4",
+                "tipo": "video"
+            },
+            {
+                "nombre": "Zancada lateral con rodillas arriba",
+                "src":"https://hmg-h-cdn.hearstapps.com/videos/2020-womenshealth-fitnessloops-ep24-tatiana-ms-kw-v1-gradedselects-lateralhighknees-02-1583933672.mp4",
+                "tipo": "video"
+            },
+            {
+                "nombre": "Pasos rápidos con puños",
+                "src":"https://hmg-h-cdn.hearstapps.com/videos/2020-womenshealth-fitnessloops-ep24-tatiana-ms-kw-v1-gradedselects-fastfeetwithpunches-02-1583933830.mp4",
+                "tipo": "video"
+            },
+            {
+                "nombre": "Flexiones de Pared",
+                "src":"https://media1.giphy.com/media/SHAh7hGU09oyXgrauE/giphy.gif",
+                "tipo": "imagen"
+            },
+            {
+                "nombre": "Abdominales de Pie",
+                "src":"assets/ABDOMINALES-DE-PIE-1-min-1.gif",
+                "tipo": "imagen"
+            },
+            {
+                "nombre": "Abdominales de crossfit",
+                "src":"https://media.giphy.com/media/ivpiAtbDZEQQVYYsIz/giphy.gif",
+                "tipo": "imagen"
+            }
+        ]
+    },
+    "Estiramientos Carpianos": [
+        {
+            "nombre": "Estiramiento Flexores",
+            "src":"https://media3.giphy.com/media/humxpXtkc0PJsgIONE/giphy.gif",
+            "tipo": "imagen"
+        },
+        {
+            "nombre": "Amasamiento del Antebrazo",
+            "src":"https://media4.giphy.com/media/viosR1bL1So0e7fPoV/giphy.gif",
+            "tipo": "imagen"
+        },
+        {
+            "nombre": "Apertura del túnel del carpo",
+            "src":"https://media3.giphy.com/media/reECjVaeyg8MWynAp5/giphy.gif",
+            "tipo": "imagen"
+        },
+        {
+            "nombre": "Movilización Neural",
+            "src":"https://media3.giphy.com/media/3f7XH096AtzgncUjXe/giphy.gif",
+            "tipo": "imagen"
+        }
+    ]
+}

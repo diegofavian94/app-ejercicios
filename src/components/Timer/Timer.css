@@ -1,0 +1,22 @@
+.timer-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    position: relative;
+    top: 20px;
+}
+
+.timer-controls-row {
+    justify-content: space-between;
+}
+
+.timer-time-input {
+    height: 100%;
+}
+
+.timer-text-container {
+    position: relative;
+    top: 100px;
+    justify-content: center;
+    font-size: xx-large;
+}
