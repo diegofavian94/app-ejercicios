@@ -1,6 +1,6 @@
 import { useRef, useState } from "react";
 import "./Timer.css"
-
+import audioTimer from "../../audio/mixkit-facility-alarm-908.wav"
 const Timer = () => {
     const timeOut = useRef(0)
     const interval: { current: NodeJS.Timeout | null } = useRef(null)
@@ -50,7 +50,7 @@ const clock = (sec: number):string => `${Math.floor(sec/60)} minutos con ${sec%6
             <span>{timerText}</span>
         </div>
         <audio ref={audio} style={{display: "none"}} controls id="audioFinal">
-			<source src="./src/audio/mixkit-facility-alarm-908.wav" type="audio/wav" />
+			<source src={audioTimer} type="audio/wav" />
 		    Your browser does not support the audio element.
 		</audio>
     </div>
