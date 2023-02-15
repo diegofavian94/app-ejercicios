@@ -1,0 +1,29 @@
+.home-container {
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.home-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 30vw;
+}
+.home-content h1,h2 {
+    text-align: center;
+}
+.home-content button {
+    position:relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    width: 50%;
+}
+
+@media (max-width: 940px){
+    .home-content {
+        width: 100vw;
+    }
+}

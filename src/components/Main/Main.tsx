@@ -36,12 +36,13 @@ const Main = () => {
     }
   return (
     <div className="main-container">
-        <div className="row main-title-row" data-testid="row-main">
+        <div className="main-title-row" data-testid="row-main">
             <h1>{`${tipo}`}</h1>
         </div>
-        <div className="row main-buttons-row" data-testid="row-main">
+        <div className="main-inputs-col" data-testid="row-main">
             {!iniciar?
-            <div className="column main-buttons-column">
+            <div className="group-input">
+                <span>Seleccionar Tipo de Ejercicio:</span>
                 <select onChange={(e)=>handleSelectTipo(e.target.value)} className="select-tipo" value={tipo}>
                     <option>Calentamiento</option>
                     <option>Ejercicios</option>
@@ -51,7 +52,8 @@ const Main = () => {
             :null
             }
             {tipo==="Ejercicios" && !iniciar?
-                <div className="column main-buttons-column">
+                <div className="group-input">
+                    <span>Seleccionar el día:</span>
                     <select onChange={(e)=>handleSelectDia(e.target.value)} className="select-dia" value={dia}>
                         <option>Martes</option>
                         <option>Jueves</option>
@@ -59,32 +61,30 @@ const Main = () => {
                 </div>
             :null
             }
-            {!iniciar?
-                <div className="column main-buttons-column">
-                    <button className="button-iniciar" onClick={()=>setIniciar(true)}>{`Iniciar`}</button>
-			    </div>
-            : null
-            }
-            <div className="column main-buttons-column">
-                <button className="button-cerrar" onClick={()=>handleCerrarContenido()}>Cerrar Contenido - Reiniciar</button>
-            </div>
-            
-        </div>
-        <div className="row main-content-row" data-testid="row-main">
-            <div className="column media-column">
-                {iniciar?
-                <Media ejerciciosArray={currentObject}/>
+            <div className="main-buttons">
+                {!iniciar?
+                    <div className="main-buttons-column">
+                        <button className="button-iniciar" onClick={()=>setIniciar(true)}>{`Inicio`}</button>
+                    </div>
                 : null
                 }
+                <div className="column main-buttons-column">
+                    <button className="button-cerrar" onClick={()=>handleCerrarContenido()}>Reiniciar</button>
+                </div>
             </div>
-            <div className="column media-column">
-                <Timer />
+        </div>
+        {iniciar?
+            <div className="main-content-row" data-testid="row-main">
+                <div className="media-column">
+                    <Media ejerciciosArray={currentObject}/>
+                </div>
+                <div className="media-column">
+                    <Timer />
+                </div>
             </div>
-            
-        </div>
-        <div className="row main-timer-row" data-testid="row-main">
-            
-        </div>
+        : null
+        }
+        
     </div>
   )
 }

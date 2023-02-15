@@ -28,15 +28,15 @@ const Media = (props: MediaProps) => {
 
     }
     return (
-    <div>
+    <div className="media-container">
         <h2>{`${ejerciciosArray[pointer].nombre}`}</h2>
         {ejerciciosArray[pointer].tipo==="video" &&
-            <video autoPlay loop muted width="600" height="400" src={ejerciciosArray[pointer].src}></video>
+            <video className="media" autoPlay loop muted width="600" height="400" src={ejerciciosArray[pointer].src}></video>
         }
         {ejerciciosArray[pointer].tipo==="imagen" &&
-            <img src={ejerciciosArray[pointer].src} alt={ejerciciosArray[pointer].nombre} />
+            <img className="media" src={ejerciciosArray[pointer].src} alt={ejerciciosArray[pointer].nombre} />
         }
-        <div>
+        <div className="media-controlers">
             <button className="button-controls" onClick={()=>handleAnterior()}>Anterior</button>
             <button className="button-controls" onClick={()=>handleSiguiente()}>Siguiente</button>
         </div>
